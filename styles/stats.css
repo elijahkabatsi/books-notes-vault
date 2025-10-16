@@ -1,0 +1,39 @@
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid #e50914;
+  background-color: #1f1f1f;
+  color: #e5e5e5;
+  resize: vertical;
+  min-height: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+textarea::placeholder {
+  color: #999;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 12px 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #b00610;
+}

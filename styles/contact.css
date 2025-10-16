@@ -1,0 +1,38 @@
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #e50914;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 2px solid #e50914;
+  background-color: #1f1f1f;
+  color: #e5e5e5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #999;
+}
+
+form button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #b00610;
+}

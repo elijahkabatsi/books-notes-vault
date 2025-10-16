@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imari Books</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+  <header>📚 Imari Books</header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="stats.html">Notes</a>
+  </nav>
+
+  <div id="search-container">
+    <input type="text" id="searchInput" placeholder="Search for a book...">
+    <button id="searchBtn">Search</button>
+    <p id="searchError" style="color:#e50914; display:none; margin-top:10px;">Book not found!</p>
+  </div>
+
+  <div class="book-grid" id="bookGrid">
+    <div class="book" data-title="Delivered From All My Fears">
+      <img src="https://m.media-amazon.com/images/I/81Nr-Ti+AtL._SY425_.jpg" alt="Delivered From All My Fears">
+      <h3>Delivered From All My Fears</h3>
+    </div>
+    <div class="book" data-title="Purpose Driven Life">
+      <img src="https://m.media-amazon.com/images/I/71Qe9OuoejL._SY425_.jpg" alt="Purpose Driven Life">
+      <h3>Purpose Driven Life</h3>
+    </div>
+    <div class="book" data-title="Mere Christianity">
+      <img src="https://m.media-amazon.com/images/I/41zTMDPtRZL._SY445_SX342_FMwebp_.jpg" alt="Mere Christianity">
+      <h3>Mere Christianity</h3>
+    </div>
+    <div class="book" data-title="Discipleship on the Edge">
+      <img src="https://m.media-amazon.com/images/I/41HRuCL1hjS._SY445_SX342_FMwebp_.jpg" alt="Discipleship on the Edge">
+      <h3>Discipleship on the Edge</h3>
+    </div>
+    <div class="book" data-title="Gay Girl, Good God">
+      <img src="https://m.media-amazon.com/images/I/71XJ21xthUL._SY425_.jpg" alt="Gay Girl, Good God">
+      <h3>Gay Girl, Good God</h3>
+    </div>
+    <div class="book" data-title="The Pilgrim's Progress">
+      <img src="https://m.media-amazon.com/images/I/71l0VzFKUYL._SY445_.jpg" alt="The Pilgrim's Progress">
+      <h3>The Pilgrim's Progress</h3>
+    </div>
+  </div>
+
+  <script src="scripts/ui.js"></script>
+</body>
+</html>

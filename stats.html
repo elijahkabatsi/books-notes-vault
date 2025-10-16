@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imari Books – Notes</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/stats.css" />
+</head>
+<body>
+  <header>📚 Imari Books </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="stats.html" class="active">Notes</a>
+  </nav>
+
+  <main>
+    <h2>My Book Notes</h2>
+    <p>Keep track of what you are reading and jot down your thoughts.</p>
+
+    <div id="noteContainer">
+      <label for="bookTitle">Book Title:</label>
+      <input type="text" id="bookTitle" placeholder="Enter book title..." />
+
+      <label for="bookNotes">Your Notes:</label>
+      <textarea id="bookNotes" rows="8" placeholder="Write your notes here..."></textarea>
+
+      <button id="saveNote">Save Notes</button>
+      <button id="clearNote">Delete Notes</button>
+
+      <div id="status"></div>
+    </div>
+  </main>
+
+  <script src="scripts/stats.js"></script>
+</body>
+</html>
