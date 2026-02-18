@@ -12,16 +12,26 @@
 
   <nav>
     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="stats.html">Notes</a>
+    <a href="pages/about.html">About</a>
+    <a href="pages/contact.html">Contact</a>
+    <a href="pages/stats.html">Notes</a>
   </nav>
 
   <div id="search-container">
     <input type="text" id="searchInput" placeholder="Search for a book...">
+
+    <select id="sortSelect">
+      <option value="name-asc">Name (A–Z)</option>
+      <option value="name-desc">Name (Z–A)</option>
+    </select>
+
     <button id="searchBtn">Search</button>
-    <p id="searchError" style="color:#e50914; display:none; margin-top:10px;">Book not found!</p>
+
+    <p id="searchError" style="color:#e50914; display:none; margin-top:10px;">
+      Book not found!
+    </p>
   </div>
+
 
   <div class="book-grid" id="bookGrid">
     <div class="book" data-title="Delivered From All My Fears">
@@ -50,6 +60,7 @@
     </div>
   </div>
 
-  <script src="scripts/ui.js"></script>
+  <script src="scripts/state.js" defer></script>
+  <script src="scripts/ui.js" defer></script>
 </body>
 </html>

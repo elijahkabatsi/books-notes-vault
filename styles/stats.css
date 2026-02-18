@@ -5,7 +5,7 @@ main {
 }
 
 h2 {
-  color: #e50914;
+  color: #FFD700;
   margin-bottom: 20px;
 }
 
@@ -13,7 +13,7 @@ textarea {
   width: 100%;
   padding: 12px;
   border-radius: 12px;
-  border: 2px solid #e50914;
+  border: 2px solid #FFD700;
   background-color: #1f1f1f;
   color: #e5e5e5;
   resize: vertical;
@@ -27,7 +27,7 @@ textarea::placeholder {
 }
 
 button {
-  background-color: #e50914;
+  background-color: #FFD700;
   color: #fff;
   padding: 12px 20px;
   margin-top: 15px;
@@ -35,5 +35,5 @@ button {
 }
 
 button:hover {
-  background-color: #b00610;
+  background-color: #FFD700;
 }

@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #e50914;
+  color: #FFD700;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: #e50914;
+  color: #FFD700;
 }
 
 button {
@@ -41,7 +41,7 @@ button:hover {
 
 input, textarea {
   border-radius: 12px;
-  border: 2px solid #e50914;
+  border: 2px solid #FFD700;
   background-color: #1f1f1f;
   color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
@@ -53,7 +53,7 @@ input::placeholder, textarea::placeholder {
 
 header {
   background-color: #1f1f1f;
-  color: #e50914;
+  color: #FFD700;
   padding: 20px 0;
   font-size: 28px;
   font-weight: bold;
@@ -82,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #e50914;
+  background-color: #FFD700;
   color: #fff;
 }
 

@@ -5,7 +5,7 @@ main {
 }
 
 h2 {
-  color: #e50914;
+  color: #FFD700;
   margin-bottom: 20px;
 }
 
@@ -14,7 +14,7 @@ form input, form textarea {
   padding: 12px;
   margin-bottom: 15px;
   border-radius: 12px;
-  border: 2px solid #e50914;
+  border: 2px solid #FFD700;
   background-color: #1f1f1f;
   color: #e5e5e5;
   font-family: 'Roboto', sans-serif;
@@ -26,7 +26,7 @@ form input::placeholder, form textarea::placeholder {
 }
 
 form button {
-  background-color: #e50914;
+  background-color: #FFD700;
   color: #fff;
   padding: 12px 20px;
   font-weight: bold;
@@ -34,5 +34,5 @@ form button {
 }
 
 form button:hover {
-  background-color: #b00610;
+  background-color: #C9A400;
 }
